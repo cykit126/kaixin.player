@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <RelativeLayout style="@style/RoundedListTopItem" >
+        <TextView
+            android:id="@+id/update"
+            android:text="@string/settings_check_update"
+            style="@style/RoundedListItemText" />        
+        <ImageButton style="@style/RoundedListItemArrow" />
+    </RelativeLayout>
+    
+    <ImageView style="@style/RoundedListDivider" />
+    
+    <RelativeLayout style="@style/RoundedListBottomItem" >
+        <TextView
+            android:id="@+id/clear_cache"
+            android:text="@string/settings_clear_cache"
+            style="@style/RoundedListItemText" />        
+        <ImageButton style="@style/RoundedListItemArrow" />
+    </RelativeLayout>
+</LinearLayout>

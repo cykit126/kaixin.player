@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">悠悠电台</string>
+    <string name="tab_recomm">推荐</string>
+    <string name="tab_favorites">收藏</string>
+    <string name="tab_settings">设置</string>
+    <string name="tab_categories">列表</string>
+    <string name="player_control_playing">正在播放 %s</string>
+    <string name="player_control_error">无法播放 %s</string>
+    <string name="player_control_connecting">正在连接 %s</string>
+    <string name="comfirm_update">有新的版本，是否更新？</string>
+    <string name="update_yes">是</string>
+    <string name="update_no">不</string>
+    <string name="update_notification_title">正在下载%s</string>
+    <string name="update_notification_confirm_installation">点击安装更新</string>
+    <string name="player_control_open_player">^</string>
+    <string name="player_go_back">&lt;</string>
+    <string name="player_control_favor">收藏</string>
+    <string name="splash_description">splash图片</string>
+    <string name="player_connecting">正在连接…</string>
+    <string name="list_icon_delete">删除</string>
+    <string name="confirm_favor_delete">确定要删除%s？</string>
+    <string name="confirm_favor_delete_yes">是</string>
+    <string name="confirm_favor_delete_no">不</string>
+    <string name="settings_check_update">检测新版本</string>
+    <string name="settings_clear_cache">删除缓存</string>
+    <string name="settings_update_to_date">已经是最新版本</string>
+    <string name="dialog_wait">我真的好忙，不要打扰我！</string>
+    <string name="player_control_buffering">%s 缓冲中...</string>
+    <string name="unknown_channel">不知名频道</string>
+    <string name="player_paused">%s 暂停中</string>
+    <string name="quit_alert">确定要退出程序吗?</string>
+    <string name="quit_yes">是</string>
+    <string name="quit_no">不</string>
+
+</resources>

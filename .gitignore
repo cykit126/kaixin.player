@@ -1,0 +1,7 @@
+build/ffmpeg-debug/*
+!build/ffmpeg-debug/configure.sh
+xcuserdata
+bin
+gen
+*.o
+*.d

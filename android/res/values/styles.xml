@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="RoundedListTopItem">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@drawable/rounded_list_top</item>
+	</style>    
+	<style name="RoundedListItemText">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#999999</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:textSize">20dp</item>
+		<item name="android:paddingLeft">20dp</item>
+	</style>
+	<style name="RoundedListItemArrow">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_alignParentRight">true</item>
+	    <item name="android:layout_marginRight">10dp</item>
+	    <item name="android:background">@drawable/list_icon_arrow</item>
+	</style>
+	<style name="RoundedListBottomItem">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@drawable/rounded_list_bottom</item>
+	</style>  
+	<style name="RoundedListDivider">
+	    <item name="android:layout_height">1dp</item>
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:background">#E2E2E2</item>
+	</style>
+</resources>

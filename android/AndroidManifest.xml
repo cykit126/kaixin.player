@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kaixindev.kxplayer"
+    android:versionCode="11"
+    android:versionName="Kaixin Player 0.11 build 20120307" >
+
+    <uses-sdk android:minSdkVersion="8" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uese-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:noHistory="true"
+            android:name=".ui.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ui.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        
+        <activity android:name=".ui.RecommActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        
+        <activity android:name=".ui.CategoriesActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        
+        <activity android:name=".ui.FavoritesActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        
+        <activity android:name=".ui.SettingsActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        
+        <activity android:name=".ui.PlayerActivity" 
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        
+        <service android:name=".service.PlayerService">
+            <intent-filter>
+                <action android:name="com.kaixindev.kxplayer.PLAYER_SERVICE" />
+            </intent-filter>
+        </service>
+        
+        <service android:name=".service.UpdateService">
+            <intent-filter>
+                <action android:name="com.kaixindev.kxplayer.COMMON_SERVICE" />
+            </intent-filter>
+        </service>
+        
+        <service android:name=".service.FavoritesService">
+            <intent-filter>
+                <action android:name="com.kaixindev.kxplayer.FAVORITES_SERVICE" />
+            </intent-filter>
+        </service>
+        
+        <service android:name=".service.ChannelSourceService">
+            <intent-filter>
+                <action android:name="com.kaixindev.kxplayer.CHANNEL_SOURCE_SERVICE" />
+            </intent-filter>
+        </service>
+        
+    </application>
+
+</manifest>

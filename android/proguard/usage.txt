@@ -1,0 +1,397 @@
+com.flurry.android.AdImage:
+    22:22:public final long getId()
+    27:27:public final int getWidth()
+    32:32:public final int getHeight()
+    37:37:public final java.lang.String getMimeType()
+    42:42:public final byte[] getImageData()
+com.flurry.android.AppCircle:
+    33:34:public void setDefaultNoAdsMessage(java.lang.String)
+    48:49:public void setAppCircleCallback(com.flurry.android.AppCircleCallback)
+    61:62:public void launchCatalogOnBannerClicked(boolean)
+    70:71:public void launchCanvasOnBannerClicked(boolean)
+    80:80:public boolean isLaunchCanvasOnBannerClicked()
+    92:92:public boolean isLaunchCatalogOnBannerClicked()
+    131:131:public android.view.View getHook(android.content.Context,java.lang.String,int)
+    140:141:public void openCatalog(android.content.Context)
+    155:156:public void openCatalog(android.content.Context,java.lang.String)
+    175:175:public boolean hasAds()
+    214:214:public com.flurry.android.Offer getOffer(java.lang.String)
+    230:230:public java.util.List getAllOffers(java.lang.String)
+    259:260:public void acceptOffer(android.content.Context,long)
+    268:269:public void removeOffers(java.util.List)
+    277:277:public com.flurry.android.Offer getOffer()
+    286:286:public java.util.List getAllOffers()
+    308:309:public void addUserCookie(java.lang.String,java.lang.String)
+    318:319:public void clearUserCookies()
+com.flurry.android.CallbackEvent:
+    public static final int ERROR_MARKET_LAUNCH
+    public static final int ADS_LOADED_FROM_CACHE
+    public static final int ADS_UPDATED
+    30:30:public final int getType()
+    38:38:public final java.lang.String getMessage()
+    51:51:public final long getTimestamp()
+    56:57:public final void setTimestamp(long)
+com.flurry.android.Constants
+com.flurry.android.FlurryAgent:
+    296:297:public static void setCatalogIntentName(java.lang.String)
+    311:312:public static void enableAppCircle()
+    321:321:public static com.flurry.android.AppCircle getAppCircle()
+    332:341:static android.view.View a(android.content.Context,java.lang.String,int)
+    347:350:static void a(android.content.Context,java.lang.String)
+    359:361:static com.flurry.android.Offer a(java.lang.String)
+    366:368:static java.util.List b(java.lang.String)
+    373:379:static void a(android.content.Context,long)
+    383:386:static void a(java.util.List)
+    390:393:static void a(boolean)
+    397:397:static boolean a()
+    404:407:public static void setDefaultNoAdsMessage(java.lang.String)
+    411:412:static void a(com.flurry.android.AppCircleCallback)
+    416:419:public static void addUserCookie(java.lang.String,java.lang.String)
+    423:426:public static void clearUserCookies()
+    447:450:public static void setVersionName(java.lang.String)
+    459:459:public static int getAgentVersion()
+    471:474:public static void setReportLocation(boolean)
+    483:493:public static void setLogEnabled(boolean)
+    502:505:public static void setLogLevel(int)
+    529:538:public static void setContinueSessionMillis(long)
+    547:550:public static void setLogEvents(boolean)
+    561:562:public static void setUseHttps(boolean)
+    570:578:public static void setCaptureUncaughtExceptions(boolean)
+    711:717:public static void logEvent(java.lang.String)
+    747:753:public static void logEvent(java.lang.String,java.util.Map)
+    771:777:public static void logEvent(java.lang.String,boolean)
+    816:822:public static void endTimedEvent(java.lang.String)
+    858:864:public static void onEvent(java.lang.String)
+    876:882:public static void onEvent(java.lang.String,java.util.Map)
+    896:902:public static void onPageView()
+    908:909:public static void setReportUrl(java.lang.String)
+    913:914:public static void setCanvasUrl(java.lang.String)
+    918:919:public static void setGetAppUrl(java.lang.String)
+    933:936:public static void setLocationCriteria(android.location.Criteria)
+    952:959:public static void setAge(int)
+    968:978:public static void setGender(byte)
+    989:992:public static void setUserId(java.lang.String)
+    1016:1016:public static boolean getForbidPlaintextFallback()
+    1367:1368:private synchronized void j()
+    1456:1465:private synchronized void c(java.lang.String)
+    1618:1620:static boolean d()
+    2349:2349:private synchronized java.lang.String n()
+    2354:2354:public static java.lang.String getPhoneId()
+com.flurry.android.Offer
+com.flurry.android.OfferInSdk
+com.flurry.android.ag:
+    39:41:final synchronized void a(com.flurry.android.o)
+com.flurry.android.ah:
+    25:26:static void a()
+    32:33:static void b()
+    37:38:static void a(int)
+    103:105:static int d(java.lang.String,java.lang.String,java.lang.Throwable)
+com.flurry.android.i:
+    31:31:public final boolean a(java.lang.String)
+    36:38:public final void a(long)
+com.flurry.android.o:
+    32:38:o(com.flurry.android.u,android.content.Context,java.lang.String,int)
+com.flurry.android.u:
+    261:287:final synchronized void a(android.content.Context,java.lang.String)
+    291:292:final void a(com.flurry.android.AppCircleCallback)
+    296:297:final void a(boolean)
+    301:301:final boolean h()
+    450:465:final synchronized com.flurry.android.Offer b(java.lang.String)
+    470:490:final synchronized void a(android.content.Context,long)
+    494:516:final synchronized java.util.List c(java.lang.String)
+    521:529:final synchronized void a(java.util.List)
+    533:545:private com.flurry.android.Offer a(java.lang.String,com.flurry.android.v)
+    594:602:final synchronized android.view.View a(android.content.Context,java.lang.String,int)
+    680:681:final synchronized void a(java.lang.String,java.lang.String)
+    685:686:final synchronized void k()
+    848:852:final synchronized boolean m()
+com.kaixindev.android.APNHelper
+com.kaixindev.android.Application:
+    43:48:public static boolean install(android.content.Context,java.lang.String)
+    59:66:public static boolean uninstall(android.content.Context,java.lang.String)
+com.kaixindev.android.AudioHelper
+com.kaixindev.android.CallLogHelper
+com.kaixindev.android.CallLogHelper$Call
+com.kaixindev.android.FileSystem:
+    35:44:public static java.io.File getExternalDirectory(android.content.Context)
+    55:63:public static java.io.File getExternalDirectory(android.content.Context,java.lang.String)
+    73:74:public static void deleteExternalDirectory(android.content.Context,java.lang.String)
+    86:90:public static java.io.File getExternalFile(android.content.Context,java.lang.String,java.lang.String)
+    165:166:public static void clearExternalCache(android.content.Context,java.lang.String)
+    201:202:public static void deleteInternalDirectory(android.content.Context,java.lang.String)
+    285:286:public static void clearInternalCache(android.content.Context,java.lang.String)
+    299:303:public static java.io.File getProperFile(android.content.Context,java.lang.String,java.lang.String)
+    341:343:public static void clearCache(android.content.Context,java.lang.String)
+    351:353:public static void deleteDirectory(android.content.Context,java.lang.String)
+    364:366:public static java.io.File getNewerFile(android.content.Context,java.lang.String,java.lang.String)
+    378:380:public static java.io.File getNewerCacheFile(android.content.Context,java.lang.String,java.lang.String)
+com.kaixindev.android.GPSHelper
+com.kaixindev.android.Log:
+    11:15:public static void v(java.lang.String,java.lang.String)
+    18:19:public static void v(java.lang.String)
+com.kaixindev.android.R$attr
+com.kaixindev.android.R$color
+com.kaixindev.android.R$dimen
+com.kaixindev.android.R$drawable
+com.kaixindev.android.R$id:
+    public static final int clear_cache
+    public static final int control_dummy_center
+    public static final int control_favor
+    public static final int control_pause
+    public static final int control_play
+    public static final int control_volume
+    public static final int controls
+    public static final int delete
+    public static final int go_back
+    public static final int icon
+    public static final int indicator
+    public static final int listview
+    public static final int loading
+    public static final int name
+    public static final int player_control
+    public static final int player_control_display
+    public static final int player_control_open_player
+    public static final int player_control_pause
+    public static final int player_control_start
+    public static final int progress
+    public static final int title
+    public static final int top_bar
+    public static final int update
+    public static final int volumn
+com.kaixindev.android.R$layout:
+    public static final int channel_item
+    public static final int main
+    public static final int player
+    public static final int settings
+    public static final int splash
+    public static final int tab_item
+    public static final int tab_list_activity
+    public static final int update_notification
+com.kaixindev.android.R$string
+com.kaixindev.android.R$style
+com.kaixindev.android.R$styleable:
+    public static final int com_gaya3d_android_ui_SettingItem_checked
+    public static final int com_gaya3d_android_ui_SettingItem_container_indicator
+    public static final int com_gaya3d_android_ui_SettingItem_description
+    public static final int com_gaya3d_android_ui_SettingItem_highlight
+    public static final int com_gaya3d_android_ui_SettingItem_highlightOnTop
+    public static final int com_gaya3d_android_ui_SettingItem_icon
+    public static final int com_gaya3d_android_ui_SettingItem_title
+    public static final int com_gaya3d_android_ui_SettingItem_value
+com.kaixindev.android.RotationHelper
+com.kaixindev.android.WifiHelper
+com.kaixindev.android.service.AsyncIntent:
+    17:17:public android.content.Intent getResponseIntent()
+com.kaixindev.android.service.AsyncService:
+    public static final java.lang.String JOB_ID
+    public static final java.lang.String JOB_RESULT
+    public static final java.lang.String JOB_PIGGYBACK
+    public static final java.lang.String JOB_RESPONSE_ACTION
+    39:56:public static android.content.Intent createResponseIntent(android.content.Intent)
+    65:65:public java.lang.Object popMessage()
+    69:70:public void postMessage(java.lang.Object)
+    78:82:public void onCreate()
+    86:87:public int onStartCommand(android.content.Intent,int,int)
+    92:93:public android.os.IBinder onBind(android.content.Intent)
+    97:97:protected android.content.Intent filter(android.content.Intent)
+    101:117:private void handleCommand(android.content.Intent,int)
+com.kaixindev.android.service.AsyncService$1
+com.kaixindev.android.service.FileWriterHandler
+com.kaixindev.android.service.IntentDispatcher:
+    32:33:public void clearFilters()
+    40:43:public void addFilter(com.kaixindev.android.service.IntentFilter)
+    49:50:public void removeFilter(com.kaixindev.android.service.IntentFilter)
+    78:79:public void clear()
+com.kaixindev.android.ui.AsyncActivity:
+    52:52:public com.kaixindev.android.service.IntentDispatcher getIntentDispatcher()
+com.kaixindev.android.ui.RadioGroup:
+    46:47:public void setOnCheckedChangedListener(com.kaixindev.android.ui.RadioGroup$OnCheckedChangedListener)
+    53:54:public void removeOnCheckedListener()
+    61:70:public void setCheckedByValue(java.lang.String)
+com.kaixindev.android.ui.RadioItem:
+    28:28:public java.lang.String getValue()
+com.kaixindev.android.ui.RotatedLayout$LayoutParams:
+    26:27:public RotatedLayout$LayoutParams(com.kaixindev.android.ui.RotatedLayout$LayoutParams)
+com.kaixindev.android.ui.SettingCheckboxItem:
+    55:56:public void setOnCheckedChangedListener(com.kaixindev.android.ui.SettingCheckboxItem$OnCheckedChangedListener)
+com.kaixindev.android.ui.SettingContainerItem:
+    44:44:public android.widget.TextView getTitleView()
+    48:48:public android.widget.TextView getDescriptionView()
+    52:52:public android.widget.ImageView getIconView()
+com.kaixindev.android.ui.SettingInfoFragment:
+    19:19:protected android.widget.TextView getTitleView()
+    23:23:protected android.widget.TextView getDescriptionView()
+com.kaixindev.core.BitsOperation
+com.kaixindev.core.FileLog:
+    49:50:public void Finalize()
+    56:68:public void close()
+    272:288:public static int[] parseContentRange(java.lang.String)
+    296:296:public java.io.RandomAccessFile getFile()
+com.kaixindev.core.Hash:
+    20:30:public static int hashRS(byte[],int)
+    37:44:public static int hashJS(byte[],int)
+    54:70:public static int hashPJW(byte[],int)
+    78:90:public static int hashELF(byte[],int)
+    100:106:public static int hashBKDR(byte[],int)
+    116:121:public static int hashSDBM(byte[],int)
+    130:135:public static int hashDJB(byte[],int)
+    143:148:public static int hashDEK(byte[],int)
+    165:173:public static int hashAP(byte[],int)
+    177:177:public static java.lang.String MD5(java.lang.String)
+    194:200:public static byte[] hash(byte[],java.lang.String)
+    207:221:public static byte[] encrypt(byte[],java.lang.String,byte[])
+com.kaixindev.core.IOUtil:
+    public static final java.lang.String PROTOCOL_FILE
+    public static final java.lang.String PROTOCOL_ASSET
+    public static final java.lang.String PROTOCOL_HTTP
+    public static final java.lang.String PROTOCOL_HTTPS
+    31:32:public static final boolean isRemoteFile(java.lang.String)
+    211:227:public static int copy(java.io.InputStream,java.io.OutputStream)
+    237:255:public static int copy(java.io.File,java.io.File)
+    265:268:public static java.io.OutputStream openOutputStream(java.lang.String)
+    277:284:public static java.io.OutputStream openOutputStream(java.io.File)
+    294:297:public static java.io.InputStream openInputStream(java.lang.String)
+    306:313:public static java.io.InputStream openInputStream(java.io.File)
+    341:341:public static boolean createParentDirectories(java.lang.String)
+    373:376:public static boolean createFile(java.lang.String)
+    386:395:public static java.io.File compare(java.io.File,java.io.File)
+com.kaixindev.core.JobQueue
+com.kaixindev.core.LocaleUtil:
+    18:22:public static java.util.Locale fromString(java.lang.String)
+com.kaixindev.core.ThreadWorker:
+    private static final java.lang.String THREAD_NAME
+    private static final int END_TIMEOUT
+    78:81:public void postMessage(java.lang.Object)
+    84:84:public java.lang.Object popMessage()
+com.kaixindev.core.XMLUtil:
+    80:112:public static boolean writeXML(org.w3c.dom.Document,java.io.OutputStream)
+com.kaixindev.io.Copier:
+    55:56:public void clearOnProgressListeners()
+    69:70:public void clearOnStartListeners()
+    83:84:public void clearOnEndListeners()
+    87:90:public void setNotifyInterval(int)
+    93:96:public com.kaixindev.io.Copier reset()
+com.kaixindev.io.FileOutputBuffer:
+    76:80:public void close()
+com.kaixindev.io.InputBuffer:
+    public abstract boolean seek(long)
+    public abstract void close()
+    public abstract java.lang.String getPath()
+com.kaixindev.io.OutputBuffer:
+    public abstract void close()
+com.kaixindev.io.StreamInputBuffer:
+    27:34:public boolean seek(long)
+    51:56:public void close()
+    62:62:public java.lang.String getPath()
+com.kaixindev.io.StreamOutputBuffer
+com.kaixindev.kxplayer.AudioDeviceEvent
+com.kaixindev.kxplayer.AudioSampleFormat
+com.kaixindev.kxplayer.Device$OnNoticeListener
+com.kaixindev.kxplayer.Device$Option:
+    public com.kaixindev.kxplayer.AVContext context
+    public com.kaixindev.kxplayer.Device$OnNoticeListener onNoticeListenr
+    final com.kaixindev.kxplayer.Device this$0
+    9:9:public Device$Option(com.kaixindev.kxplayer.Device)
+com.kaixindev.kxplayer.FavoritesManager:
+    public static final int MSG_LOAD_OK
+    public static final int MSG_LOAD_ERROR
+    public static final int MSG_FLUSH_OK
+    public static final int MSG_FLUSH_ERROR
+com.kaixindev.kxplayer.Player:
+    public static final int STATE_IDLE
+    public static final int STATE_CONNECTING
+    public static final int STATE_BUFFERING
+    public static final int STATE_PLAYING
+    public static final int STATE_PAUSED
+    public static final int STATE_ERROR
+    private static final int NOTIFY_PERIOD
+    private static final int BUFFER_SIZE
+com.kaixindev.kxplayer.PlayerNotificationReceiver:
+    public static final int MSG_NOTICE
+com.kaixindev.kxplayer.R
+com.kaixindev.kxplayer.R$attr
+com.kaixindev.kxplayer.R$color
+com.kaixindev.kxplayer.R$dimen
+com.kaixindev.kxplayer.R$drawable
+com.kaixindev.kxplayer.R$id
+com.kaixindev.kxplayer.R$layout
+com.kaixindev.kxplayer.R$string
+com.kaixindev.kxplayer.R$style
+com.kaixindev.kxplayer.R$styleable
+com.kaixindev.kxplayer.config.Config
+com.kaixindev.kxplayer.service.ChannelSourceService:
+    public static final java.lang.String ACTION
+    public static final int MSG_OK
+    public static final int MSG_ERROR
+    40:40:public static boolean hasChannel(java.lang.String)
+com.kaixindev.kxplayer.service.ChannelSourceService$Client:
+    57:57:public synchronized boolean has(java.lang.String)
+    61:61:public synchronized boolean isLoaded()
+com.kaixindev.kxplayer.service.FavoritesService:
+    public static final java.lang.String ACTION
+    25:25:static boolean access$2(com.kaixindev.kxplayer.service.FavoritesService)
+com.kaixindev.kxplayer.service.FavoritesService$Client:
+    61:61:public synchronized boolean isLoaded()
+com.kaixindev.kxplayer.service.PlayerService:
+    public static final java.lang.String PLAYER_NOTICE
+    public static final java.lang.String PROPERTY_STATE
+    public static final java.lang.String PROPERTY_URI
+    public static final java.lang.String ACTION
+com.kaixindev.kxplayer.service.PlayerService$Client:
+    63:64:public void abort()
+    71:72:public void stop()
+com.kaixindev.kxplayer.service.UpdateService:
+    public static final java.lang.String LOGTAG
+    public static final java.lang.String ACTION
+    public static final int MSG_UPDATE_AVAILABLE
+    public static final int MSG_UPDATE_TO_DATE
+com.kaixindev.kxplayer.ui.ChannelListActivity:
+    public static final int MSG_CHANNELS_OK
+    public static final int MSG_CHANNELS_ERROR
+com.kaixindev.kxplayer.ui.MainActivity:
+    public static final java.lang.String LOGTAG
+com.kaixindev.kxplayer.ui.PlayerActivity$BroadcastHandler:
+    38:40:public void updatePlayer(android.content.Intent,android.content.Context,java.lang.Object)
+    44:53:public void handleMediaButton(android.content.Intent,android.content.Context,java.lang.Object)
+com.kaixindev.net.HTTPDownload
+com.kaixindev.net.HTTPDownloadBuilder:
+    26:29:public com.kaixindev.net.HTTPDownloadBuilder setTimeout(int)
+com.kaixindev.net.HTTPDownloadCallback
+com.kaixindev.net.StreamInfoFile
+com.kaixindev.serialize.AttributeSerializer
+com.kaixindev.serialize.Serializer
+com.kaixindev.serialize.Type:
+    public static final java.lang.String BOOLEAN
+    public static final java.lang.String BYTE
+    public static final java.lang.String SHORT
+    public static final java.lang.String INTEGER
+    public static final java.lang.String LONG
+    public static final java.lang.String FLOAT
+    public static final java.lang.String DOUBLE
+    public static final java.lang.String STRING
+    public static final java.lang.String BOOLEAN_SHORT
+    public static final java.lang.String BYTE_SHORT
+    public static final java.lang.String SHORT_SHORT
+    public static final java.lang.String INTEGER_SHORT
+    public static final java.lang.String LONG_SHORT
+    public static final java.lang.String FLOAT_SHORT
+    public static final java.lang.String DOUBLE_SHORT
+    public static final java.lang.String ARRAY_PREFIX
+    public static final java.lang.String ARRAY_SUFFIX
+    private static final java.lang.String PRIMITIVE_TYPE_PREFIX
+com.kaixindev.serialize.XMLSerializer:
+    private static final java.lang.String ROOT_NAME
+    private static final java.lang.String ARRAY_ITEM
+    private static final java.lang.String PROPERTY_TYPE
+    88:89:public void serialize(java.lang.Object,org.w3c.dom.Document,org.w3c.dom.Element)
+com.kaixindev.table.Differ
+com.kaixindev.table.FileStorage
+com.kaixindev.table.JSONSerializer
+com.kaixindev.table.Merger
+com.kaixindev.table.PatchItem
+com.kaixindev.table.Serializer
+com.kaixindev.table.Storage
+com.kaixindev.table.StringStorage
+com.kaixindev.table.Table
+com.kaixindev.table.Value
+com.kaixindev.table.XMLSerializer

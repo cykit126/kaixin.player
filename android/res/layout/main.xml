@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="3dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/tab_bg" />
+        <RelativeLayout android:id="@+id/player_control"
+            android:background="@drawable/player_bar_small"
+            android:layout_height="61dp"
+            android:layout_width="fill_parent" 
+            android:layout_alignParentBottom="true">
+			<ImageButton android:id="@+id/player_control_start" 
+			    android:layout_width="42dp"
+			    android:layout_height="42dp"
+			    android:background="@drawable/btn_play"
+			    android:layout_marginLeft="5dp"
+			    android:layout_centerVertical="true" />
+			<ImageButton android:id="@+id/player_control_pause"
+			    android:layout_toRightOf="@id/player_control_start"
+			    android:layout_width="42dp"
+			    android:layout_height="42dp"
+			    android:layout_marginLeft="5dp"
+			    android:background="@drawable/btn_pause"
+			    android:layout_centerVertical="true" />
+			<TextView android:id="@+id/player_control_display"
+			    android:layout_width="220dp"
+			    android:layout_height="42dp"
+			    android:gravity="center"
+			    android:textColor="#000000"
+			    android:background="@drawable/player_screen"
+			    android:layout_centerInParent="true" />
+			<ImageButton android:id="@+id/player_control_open_player"
+			    android:text="@string/player_control_open_player"
+			    android:layout_alignParentRight="true"
+			    android:layout_centerVertical="true"
+			    android:layout_marginRight="5dp"		
+			    android:background="@drawable/btn_fullscreen"
+			    android:layout_width="42dp"
+			    android:layout_height="42dp" />
+		</RelativeLayout>
+		<FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@android:id/tabs"
+	        android:background="#f4f4f4"
+            android:layout_above="@id/player_control" />
+    </RelativeLayout>
+</TabHost>

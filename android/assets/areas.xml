@@ -1,0 +1,254 @@
+<areas type="com.kaixindev.kxplayer.Area[]">
+    <item>
+        <id type="String"><![CDATA[﻿2001]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[State]]></en>
+            <zh type="String"><![CDATA[中央]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2002]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Beijing]]></en>
+            <zh type="String"><![CDATA[北京]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2003]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Shanghai]]></en>
+            <zh type="String"><![CDATA[上海]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2004]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Tianjin]]></en>
+            <zh type="String"><![CDATA[天津]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2005]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Hunan]]></en>
+            <zh type="String"><![CDATA[湖南]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2006]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Guangdong]]></en>
+            <zh type="String"><![CDATA[广东]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2007]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Zhejiang]]></en>
+            <zh type="String"><![CDATA[浙江]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2008]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Shandong]]></en>
+            <zh type="String"><![CDATA[山东]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2009]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Hebei]]></en>
+            <zh type="String"><![CDATA[河北]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2010]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Hubei]]></en>
+            <zh type="String"><![CDATA[湖北]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2011]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Xinjiang]]></en>
+            <zh type="String"><![CDATA[新疆]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2012]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Anhui]]></en>
+            <zh type="String"><![CDATA[安徽]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2013]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Jiangsu]]></en>
+            <zh type="String"><![CDATA[江苏]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2014]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Jiangxi]]></en>
+            <zh type="String"><![CDATA[江西]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2015]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Shanxi]]></en>
+            <zh type="String"><![CDATA[山西]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2016]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Henan]]></en>
+            <zh type="String"><![CDATA[河南]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2017]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Guangxi]]></en>
+            <zh type="String"><![CDATA[广西]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2018]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Heilongjiang]]></en>
+            <zh type="String"><![CDATA[黑龙江]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2019]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Liaoning]]></en>
+            <zh type="String"><![CDATA[辽宁]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2020]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Fujian]]></en>
+            <zh type="String"><![CDATA[福建]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2021]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Gansu]]></en>
+            <zh type="String"><![CDATA[甘肃]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2022]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Guizhou]]></en>
+            <zh type="String"><![CDATA[贵州]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2023]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Sichuan]]></en>
+            <zh type="String"><![CDATA[四川]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2024]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Qinghai]]></en>
+            <zh type="String"><![CDATA[青海]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2025]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Shanxi]]></en>
+            <zh type="String"><![CDATA[陕西]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2026]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Jilin]]></en>
+            <zh type="String"><![CDATA[吉林]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2027]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Ningxia]]></en>
+            <zh type="String"><![CDATA[宁夏]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2028]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Hainan]]></en>
+            <zh type="String"><![CDATA[海南]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2029]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Xizang]]></en>
+            <zh type="String"><![CDATA[西藏]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2030]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Neimenggu]]></en>
+            <zh type="String"><![CDATA[内蒙古]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2031]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Yunnan]]></en>
+            <zh type="String"><![CDATA[云南]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2032]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Chongqing]]></en>
+            <zh type="String"><![CDATA[重庆]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2033]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Taiwan]]></en>
+            <zh type="String"><![CDATA[台湾]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2034]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Hongkong]]></en>
+            <zh type="String"><![CDATA[香港]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2035]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[Aomen]]></en>
+            <zh type="String"><![CDATA[澳门]]></zh>
+        </name>
+    </item>
+    <item>
+        <id type="String"><![CDATA[2036]]></id>
+        <name type="com.kaixindev.core.I18NString">
+            <en type="String"><![CDATA[International]]></en>
+            <zh type="String"><![CDATA[国际]]></zh>
+        </name>
+    </item>
+</areas>

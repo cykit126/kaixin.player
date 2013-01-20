@@ -1,0 +1,1164 @@
+com.flurry.android.AdImage -> com.flurry.android.a:
+    long a -> a
+    int b -> b
+    int c -> c
+    java.lang.String d -> d
+    byte[] e -> e
+    void a(java.io.DataInput) -> a
+com.flurry.android.AppCircle -> com.flurry.android.ai:
+com.flurry.android.AppCircleCallback -> com.flurry.android.ah:
+com.flurry.android.CallbackEvent -> com.flurry.android.j:
+    int a -> a
+    long b -> b
+    java.lang.String c -> c
+    void setMessage(java.lang.String) -> a
+com.flurry.android.CatalogActivity -> com.flurry.android.CatalogActivity:
+    java.lang.String a -> a
+    android.webkit.WebView b -> b
+    com.flurry.android.w c -> c
+    java.util.List d -> d
+    com.flurry.android.u e -> e
+    com.flurry.android.p f -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    void finish() -> finish
+    void onDestroy() -> onDestroy
+    void onClick(android.view.View) -> onClick
+    void a(com.flurry.android.x) -> a
+    com.flurry.android.p a(com.flurry.android.CatalogActivity) -> a
+    long b(com.flurry.android.CatalogActivity) -> b
+    com.flurry.android.u c(com.flurry.android.CatalogActivity) -> c
+com.flurry.android.FlurryAgent -> com.flurry.android.y:
+    java.lang.String[] b -> b
+    java.lang.String c -> c
+    java.lang.String kInsecureReportUrl -> d
+    java.lang.String kSecureReportUrl -> e
+    java.lang.String d -> f
+    java.lang.String e -> g
+    java.lang.String f -> h
+    java.lang.String g -> i
+    com.flurry.android.FlurryAgent h -> j
+    long i -> k
+    boolean j -> l
+    boolean k -> m
+    boolean l -> n
+    boolean m -> o
+    android.location.Criteria n -> p
+    boolean o -> q
+    com.flurry.android.AppCircle p -> r
+    android.os.Handler q -> s
+    java.io.File r -> t
+    java.io.File s -> u
+    boolean t -> v
+    boolean u -> w
+    long v -> x
+    java.util.Map w -> y
+    java.lang.String x -> z
+    java.lang.String y -> A
+    java.lang.String z -> B
+    boolean A -> C
+    java.util.List B -> D
+    android.location.LocationManager C -> E
+    java.lang.String D -> F
+    boolean E -> G
+    long F -> H
+    java.util.List G -> I
+    long H -> J
+    long I -> K
+    long J -> L
+    java.lang.String K -> M
+    java.lang.String L -> N
+    byte M -> O
+    java.lang.String N -> P
+    byte O -> Q
+    java.lang.Long P -> R
+    int Q -> S
+    android.location.Location R -> T
+    java.util.Map S -> U
+    java.util.List T -> V
+    boolean U -> W
+    int V -> X
+    java.util.List W -> Y
+    int X -> Z
+    com.flurry.android.u Y -> aa
+    java.lang.String a -> a
+    void a(java.lang.Throwable) -> a
+    void onStartSession(android.content.Context,java.lang.String) -> a
+    void onEndSession(android.content.Context) -> a
+    void logEvent$42701bee(java.lang.String,java.util.Map) -> a
+    boolean isCaptureUncaughtExceptions() -> a
+    com.flurry.android.u b() -> b
+    void b(android.content.Context,java.lang.String) -> b
+    void a(android.content.Context,boolean) -> a
+    void i() -> g
+    double a(double) -> a
+    void a(java.lang.Runnable) -> a
+    void a$42701bee(java.lang.String,java.util.Map) -> b
+    void a(java.lang.String,java.lang.String,java.lang.String) -> a
+    byte[] b(boolean) -> a
+    java.lang.String k() -> h
+    boolean a(byte[]) -> a
+    boolean a(byte[],java.lang.String) -> a
+    void a(java.io.DataInputStream) -> a
+    void c(boolean) -> b
+    void a(android.content.Context) -> b
+    void b(java.io.DataInputStream) -> b
+    java.lang.String d(java.lang.String) -> a
+    void l() -> i
+    boolean a(java.io.File) -> a
+    void c(android.content.Context,java.lang.String) -> c
+    java.lang.String b(android.content.Context) -> c
+    java.lang.String c(android.content.Context) -> d
+    android.location.Location d(android.content.Context) -> e
+    void m() -> j
+    java.lang.String e() -> c
+    void onLocationChanged(android.location.Location) -> onLocationChanged
+    void onProviderDisabled(java.lang.String) -> onProviderDisabled
+    void onProviderEnabled(java.lang.String) -> onProviderEnabled
+    void onStatusChanged(java.lang.String,int,android.os.Bundle) -> onStatusChanged
+    org.apache.http.client.HttpClient a(org.apache.http.params.HttpParams) -> a
+    com.flurry.android.FlurryAgent f() -> d
+    boolean a(com.flurry.android.FlurryAgent) -> a
+    void a(com.flurry.android.FlurryAgent,android.content.Context) -> a
+    void a(com.flurry.android.FlurryAgent,android.content.Context,boolean) -> a
+    void b(com.flurry.android.FlurryAgent) -> b
+    void c(com.flurry.android.FlurryAgent) -> c
+    void b$220cd6b8(com.flurry.android.FlurryAgent) -> d
+    long g() -> e
+    android.os.Handler d(com.flurry.android.FlurryAgent) -> e
+    boolean h() -> f
+    com.flurry.android.u e(com.flurry.android.FlurryAgent) -> f
+com.flurry.android.FlurryAgent$FlurryDefaultExceptionHandler -> com.flurry.android.ac:
+    java.lang.Thread$UncaughtExceptionHandler a -> a
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+com.flurry.android.InstallReceiver -> com.flurry.android.InstallReceiver:
+    android.os.Handler a -> a
+    java.io.File b -> b
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    java.util.Map a(java.lang.String) -> a
+    void a(java.util.Map) -> a
+    java.io.File a(com.flurry.android.InstallReceiver) -> a
+com.flurry.android.a -> com.flurry.android.w:
+    java.lang.String a -> a
+    long b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    android.os.Handler e -> e
+com.flurry.android.aa -> com.flurry.android.aj:
+    long a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+com.flurry.android.ab -> com.flurry.android.ao:
+    android.text.SpannedString a -> a
+    android.text.SpannedString b -> b
+    android.text.SpannedString a(com.flurry.android.ab) -> a
+    android.text.SpannedString b(com.flurry.android.ab) -> b
+com.flurry.android.ac -> com.flurry.android.ap:
+    android.widget.TextView a -> a
+    com.flurry.android.ab b -> b
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+com.flurry.android.ad -> com.flurry.android.aq:
+    int a -> a
+    com.flurry.android.u b -> b
+    void run() -> run
+com.flurry.android.ae -> com.flurry.android.ar:
+    java.lang.String a -> a
+    com.flurry.android.u b -> b
+    void run() -> run
+com.flurry.android.af -> com.flurry.android.ak:
+    java.util.LinkedHashMap a -> a
+    int b -> b
+    java.lang.Object a(java.lang.Object) -> a
+    void a(java.lang.Object,java.lang.Object) -> a
+    int a() -> a
+    java.util.List b() -> b
+    java.util.Set c() -> c
+    int a(com.flurry.android.af) -> a
+com.flurry.android.ag -> com.flurry.android.al:
+    java.util.List a -> a
+    android.os.Handler b -> b
+    android.os.Handler c -> c
+    int d -> d
+    java.lang.Runnable e -> e
+    void a() -> a
+    void b() -> b
+    void a(com.flurry.android.ag) -> a
+com.flurry.android.ah -> com.flurry.android.am:
+    boolean a -> a
+    int b -> b
+    boolean a(java.lang.String) -> a
+    int a(java.lang.String,java.lang.String,java.lang.Throwable) -> a
+    int a(java.lang.String,java.lang.String) -> a
+    int b(java.lang.String,java.lang.String,java.lang.Throwable) -> b
+    int b(java.lang.String,java.lang.String) -> b
+    int c(java.lang.String,java.lang.String,java.lang.Throwable) -> c
+    int c(java.lang.String,java.lang.String) -> c
+    int d(java.lang.String,java.lang.String) -> d
+com.flurry.android.ai -> com.flurry.android.an:
+    javax.net.ssl.SSLContext a -> a
+    java.net.Socket createSocket(java.net.Socket,java.lang.String,int,boolean) -> createSocket
+    java.net.Socket createSocket() -> createSocket
+com.flurry.android.aj -> com.flurry.android.c:
+com.flurry.android.ak -> com.flurry.android.d:
+    java.lang.String a -> a
+    android.content.Context b -> b
+    com.flurry.android.p c -> c
+    com.flurry.android.u d -> d
+    void run() -> run
+com.flurry.android.al -> com.flurry.android.b:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    int c -> c
+com.flurry.android.b -> com.flurry.android.v:
+    boolean c -> b
+    android.content.Context a -> c
+    com.flurry.android.FlurryAgent b -> a
+    void run() -> run
+com.flurry.android.c -> com.flurry.android.z:
+    byte a -> a
+    java.lang.String b -> b
+    long c -> c
+    long r -> r
+    java.lang.String d -> d
+    int e -> e
+    int f -> f
+    java.lang.String g -> g
+    int h -> h
+    int i -> i
+    java.lang.String j -> j
+    int k -> k
+    int l -> l
+    java.lang.String s -> s
+    int t -> t
+    int u -> u
+    java.lang.String v -> v
+    int w -> w
+    int x -> x
+    java.lang.String y -> y
+    int z -> z
+    int A -> A
+    int B -> B
+    int C -> C
+    int m -> m
+    int n -> n
+    int o -> o
+    int p -> p
+    int D -> D
+    int E -> E
+    int F -> F
+    int G -> G
+    int H -> H
+    int I -> I
+    int J -> J
+    int K -> K
+    int q -> q
+    int L -> L
+    int M -> M
+    int N -> N
+    int O -> O
+    int P -> P
+    int Q -> Q
+    int R -> R
+    int S -> S
+    int T -> T
+    int U -> U
+    int V -> V
+    int W -> W
+    int X -> X
+    int Y -> Y
+    int Z -> Z
+    int aa -> aa
+    int ab -> ab
+    int ac -> ac
+    int ad -> ad
+    int ae -> ae
+    int af -> af
+    boolean ag -> ag
+    void c(java.io.DataInput) -> c
+    void a(java.io.DataInput) -> a
+    void b(java.io.DataInput) -> b
+    void a(java.io.DataOutput) -> a
+com.flurry.android.d -> com.flurry.android.x:
+    android.content.Context a -> a
+    boolean b -> b
+    com.flurry.android.FlurryAgent c -> c
+    void run() -> run
+com.flurry.android.e -> com.flurry.android.ab:
+    java.lang.String a -> a
+    byte b -> b
+    byte c -> c
+    com.flurry.android.c d -> d
+    java.lang.String toString() -> toString
+com.flurry.android.f -> com.flurry.android.aa:
+    byte a -> a
+    long b -> b
+    java.lang.String toString() -> toString
+com.flurry.android.g -> com.flurry.android.e:
+    int a -> a
+com.flurry.android.h -> com.flurry.android.f:
+    com.flurry.android.af a -> a
+    boolean removeEldestEntry(java.util.Map$Entry) -> removeEldestEntry
+com.flurry.android.i -> com.flurry.android.g:
+    java.lang.String a -> a
+    java.util.Map b -> b
+    long c -> c
+    boolean d -> d
+    long e -> e
+    byte[] a() -> a
+com.flurry.android.j -> com.flurry.android.h:
+    java.util.List a -> a
+    void run() -> run
+com.flurry.android.k -> com.flurry.android.i:
+    com.flurry.android.ag a -> a
+    void run() -> run
+com.flurry.android.l -> com.flurry.android.k:
+    com.flurry.android.b a -> a
+    void run() -> run
+com.flurry.android.m -> com.flurry.android.l:
+    java.lang.String a -> a
+    com.flurry.android.ak b -> b
+    void run() -> run
+com.flurry.android.n -> com.flurry.android.m:
+    void checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkClientTrusted
+    void checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkServerTrusted
+    java.security.cert.X509Certificate[] getAcceptedIssuers() -> getAcceptedIssuers
+com.flurry.android.o -> com.flurry.android.n:
+    com.flurry.android.u a -> a
+    android.content.Context b -> b
+    java.lang.String c -> c
+    int d -> d
+    boolean e -> e
+    boolean f -> f
+    void a() -> a
+    android.widget.RelativeLayout$LayoutParams b() -> b
+    com.flurry.android.y c() -> c
+com.flurry.android.p -> com.flurry.android.o:
+    java.lang.String a -> a
+    byte e -> e
+    com.flurry.android.v b -> b
+    long c -> c
+    java.util.List d -> d
+    void a(com.flurry.android.f) -> a
+    long a() -> a
+    void a(java.io.DataOutput) -> a
+    java.lang.String toString() -> toString
+com.flurry.android.q -> com.flurry.android.p:
+    com.flurry.android.CatalogActivity a -> a
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String) -> onReceivedError
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+com.flurry.android.r -> com.flurry.android.q:
+    java.lang.String a(java.lang.String,int) -> a
+    java.lang.String a(java.lang.String) -> a
+    void a(java.io.Closeable) -> a
+    void a(android.content.Context,android.widget.ImageView,int,int) -> a
+    int a(android.content.Context,int) -> a
+com.flurry.android.s -> com.flurry.android.r:
+com.flurry.android.t -> com.flurry.android.s:
+    java.util.Map a -> a
+    com.flurry.android.InstallReceiver b -> b
+    void run() -> run
+com.flurry.android.u -> com.flurry.android.t:
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    java.lang.String a -> a
+    int g -> g
+    java.lang.String b -> b
+    java.lang.String h -> h
+    java.lang.String i -> i
+    java.lang.String j -> j
+    long k -> k
+    long l -> l
+    long m -> m
+    long n -> n
+    com.flurry.android.z o -> o
+    boolean p -> p
+    boolean q -> q
+    java.lang.String r -> r
+    java.util.Map s -> s
+    android.os.Handler t -> t
+    boolean u -> u
+    java.util.Map v -> v
+    com.flurry.android.ag w -> w
+    java.util.List x -> x
+    java.util.Map y -> y
+    com.flurry.android.AppCircleCallback z -> z
+    long A -> A
+    void a(android.content.Context,com.flurry.android.a) -> a
+    void a(long,long) -> a
+    boolean a() -> a
+    void a(java.lang.String) -> a
+    void b() -> b
+    void c() -> c
+    void a(java.util.Map,java.util.Map,java.util.Map,java.util.Map,java.util.Map,java.util.Map) -> a
+    long d() -> d
+    java.util.Set e() -> e
+    com.flurry.android.AdImage a(long) -> a
+    com.flurry.android.AdImage n() -> k
+    java.util.List f() -> f
+    com.flurry.android.p b(long) -> b
+    void g() -> g
+    java.lang.String i() -> h
+    void a(android.content.Context,com.flurry.android.p,java.lang.String) -> a
+    java.lang.String d(java.lang.String) -> b
+    void e(java.lang.String) -> c
+    java.util.List a(android.content.Context,java.util.List,java.lang.Long,int,boolean) -> a
+    long j() -> i
+    void onClick(android.view.View) -> onClick
+    java.lang.String a(com.flurry.android.p) -> a
+    java.lang.String a(byte[]) -> a
+    java.lang.String toString() -> toString
+    com.flurry.android.AdImage l() -> j
+    com.flurry.android.p b(com.flurry.android.p) -> b
+    void a(java.lang.Runnable) -> a
+    void a(int) -> a
+    boolean p() -> l
+    java.lang.String a(com.flurry.android.u,java.lang.String) -> a
+    void a(com.flurry.android.u,android.content.Context,java.lang.String) -> a
+    void b(com.flurry.android.u,java.lang.String) -> b
+com.flurry.android.v -> com.flurry.android.u:
+    long a -> a
+    long b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    long e -> e
+    java.lang.Long f -> f
+    byte[] g -> g
+    com.flurry.android.AdImage h -> h
+    void a(java.io.DataInput) -> a
+    void b(java.io.DataInput) -> b
+    java.lang.String toString() -> toString
+    java.lang.String a(byte[]) -> a
+com.flurry.android.w -> com.flurry.android.ag:
+    android.view.View a -> a
+    java.util.List b -> b
+    boolean c -> c
+    com.flurry.android.CatalogActivity d -> d
+    java.util.List a(android.content.Context) -> a
+    void a() -> a
+    void a(java.util.List) -> a
+    void a(java.util.List,boolean) -> a
+    java.util.List b() -> b
+com.flurry.android.x -> com.flurry.android.af:
+    java.lang.String a -> a
+    java.util.List b -> b
+com.flurry.android.y -> com.flurry.android.ae:
+    com.flurry.android.u a -> a
+    com.flurry.android.p b -> b
+    int c -> c
+    void a(android.content.Context,com.flurry.android.e,com.flurry.android.v,boolean) -> a
+    com.flurry.android.p a() -> a
+    void a(com.flurry.android.p) -> a
+com.flurry.android.z -> com.flurry.android.ad:
+    android.content.Context a -> a
+    com.flurry.android.u b -> b
+    com.flurry.android.a c -> c
+    long d -> d
+    com.flurry.android.af e -> e
+    com.flurry.android.af f -> f
+    java.util.Map g -> g
+    java.util.Map h -> h
+    java.util.Map i -> i
+    java.util.Map j -> j
+    boolean k -> k
+    void a(android.content.Context,com.flurry.android.u,com.flurry.android.a) -> a
+    com.flurry.android.v[] a(java.lang.String) -> a
+    com.flurry.android.al a(long) -> b
+    java.util.Set a() -> a
+    com.flurry.android.AdImage b(long) -> a
+    com.flurry.android.AdImage a$3dba2ef4() -> b
+    com.flurry.android.e b(java.lang.String) -> b
+    boolean b() -> c
+    com.flurry.android.c a(byte) -> a
+    void a(java.util.Map,java.util.Map,java.util.Map,java.util.Map,java.util.Map,java.util.Map) -> a
+    long c() -> d
+    void d() -> e
+    void a(java.io.File) -> a
+    void f() -> g
+    void e() -> f
+    void a(java.io.DataInputStream) -> a
+    void a(java.io.DataOutputStream) -> a
+    java.lang.String g() -> h
+    void a(int) -> a
+    java.lang.String toString() -> toString
+com.kaixindev.android.Application -> com.kaixindev.android.a:
+    java.lang.String getVersionName(android.content.Context) -> a
+    int getVersionCode(android.content.Context) -> b
+com.kaixindev.android.FileSystem -> com.kaixindev.android.f:
+    java.io.File getProperCacheFile(android.content.Context,java.lang.String,java.lang.String) -> a
+com.kaixindev.android.Log -> com.kaixindev.android.g:
+    java.lang.String TAG -> a
+    boolean ENABLED -> b
+    void d(java.lang.String,java.lang.String) -> a
+    void d(java.lang.String) -> a
+    void i(java.lang.String,java.lang.String) -> b
+    void i(java.lang.String) -> b
+    void w(java.lang.String,java.lang.String) -> c
+    void w(java.lang.String) -> c
+    void e(java.lang.String,java.lang.String) -> d
+    void e(java.lang.String) -> d
+    java.lang.String filterMessage(java.lang.String) -> e
+    java.lang.String formatMessage(java.lang.String,java.lang.StackTraceElement) -> a
+    java.lang.StackTraceElement getStackTraceElement() -> a
+com.kaixindev.android.R -> com.kaixindev.android.d:
+com.kaixindev.android.R$id -> com.kaixindev.android.e:
+    int setting_checkbox_item_checkbox -> a
+    int setting_container_indicator -> b
+    int setting_info_fragment -> c
+    int setting_item_desc -> d
+    int setting_item_icon -> e
+    int setting_item_title -> f
+    int setting_radio_item_radio -> g
+com.kaixindev.android.R$layout -> com.kaixindev.android.b:
+    int setting_checkbox_item -> a
+    int setting_container_item -> b
+    int setting_info_fragment -> c
+    int setting_radio_item -> d
+com.kaixindev.android.R$styleable -> com.kaixindev.android.c:
+    int[] com_gaya3d_android_ui_SettingItem -> a
+com.kaixindev.android.service.AsyncIntent -> com.kaixindev.android.service.AsyncIntent:
+    android.content.Intent mRespIntent -> a
+com.kaixindev.android.service.AsyncService -> com.kaixindev.android.service.AsyncService:
+    com.kaixindev.android.service.IntentDispatcher mIntentDispatcher -> a
+    com.kaixindev.core.ThreadWorker mThreadWorker -> b
+com.kaixindev.android.service.IntentDispatcher -> com.kaixindev.android.service.c:
+    java.util.List mFilters -> a
+    java.util.HashMap mHandlers -> b
+    void registerHandlers(java.lang.Object) -> a
+    boolean handle$5e8c25ca(android.content.Intent,android.content.Context) -> a
+com.kaixindev.android.service.IntentDispatcher$1 -> com.kaixindev.android.service.a:
+    com.kaixindev.android.service.IntentDispatcher this$0 -> b
+    java.lang.reflect.Method val$m -> c
+    void handle$5e8c25ce(android.content.Intent,android.content.Context) -> a
+com.kaixindev.android.service.IntentDispatcher$Handler -> com.kaixindev.android.service.f:
+    void handle$5e8c25ce(android.content.Intent,android.content.Context) -> a
+com.kaixindev.android.service.IntentDispatcher$HandlerProxy -> com.kaixindev.android.service.e:
+    java.lang.Object mObj -> a
+    com.kaixindev.android.service.IntentDispatcher this$0 -> b
+com.kaixindev.android.service.IntentFilter -> com.kaixindev.android.service.b:
+    boolean filter$14d1abca() -> a
+com.kaixindev.android.service.IntentHandler -> com.kaixindev.android.service.d:
+    java.lang.String action() -> a
+com.kaixindev.android.ui.AsyncActivity -> com.kaixindev.android.ui.AsyncActivity:
+    com.kaixindev.android.service.IntentDispatcher mIntentDispatcher -> a
+    com.kaixindev.android.ui.AsyncActivity$Receiver mReceiver -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onPause() -> onPause
+    android.content.IntentFilter getIntentFilter() -> a
+    com.kaixindev.android.service.IntentDispatcher access$0(com.kaixindev.android.ui.AsyncActivity) -> a
+com.kaixindev.android.ui.AsyncActivity$Receiver -> com.kaixindev.android.ui.b:
+    com.kaixindev.android.ui.AsyncActivity this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.kaixindev.android.ui.RadioGroup -> com.kaixindev.android.ui.RadioGroup:
+    java.util.List mRadioItems -> a
+    com.kaixindev.android.ui.RadioGroup$OnCheckedChangedListener mCheckedChangedListener -> b
+    void setItemChecked(com.kaixindev.android.ui.RadioItem) -> a
+    void addView(android.view.View,int,android.view.ViewGroup$LayoutParams) -> addView
+    void access$0(com.kaixindev.android.ui.RadioGroup,com.kaixindev.android.ui.RadioItem) -> a
+com.kaixindev.android.ui.RadioGroup$1 -> com.kaixindev.android.ui.a:
+    com.kaixindev.android.ui.RadioGroup this$0 -> a
+    com.kaixindev.android.ui.RadioItem val$item -> b
+    void onClick(android.view.View) -> onClick
+com.kaixindev.android.ui.RadioGroup$OnCheckedChangedListener -> com.kaixindev.android.ui.f:
+com.kaixindev.android.ui.RadioItem -> com.kaixindev.android.ui.RadioItem:
+    boolean mIsChecked -> b
+    java.lang.String mValue -> a
+    void setChecked(boolean) -> a
+    boolean isChecked() -> a
+com.kaixindev.android.ui.RotatedLayout -> com.kaixindev.android.ui.RotatedLayout:
+    android.view.ViewGroup$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams) -> generateLayoutParams
+    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
+    void onLayout(boolean,int,int,int,int) -> onLayout
+    void onMeasure(int,int) -> onMeasure
+    void dispatchDraw(android.graphics.Canvas) -> dispatchDraw
+    android.graphics.Matrix getTransformMatrix() -> a
+    android.view.ViewGroup$LayoutParams generateDefaultLayoutParams() -> generateDefaultLayoutParams
+    android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet) -> generateLayoutParams
+com.kaixindev.android.ui.RotatedLayout$LayoutParams -> com.kaixindev.android.ui.RotatedLayout$LayoutParams:
+com.kaixindev.android.ui.SettingCheckboxItem -> com.kaixindev.android.ui.SettingCheckboxItem:
+    com.kaixindev.android.ui.SettingCheckboxItem$OnCheckedChangedListener mOnCheckChangedListener -> a
+    boolean mIsChecked -> b
+    com.kaixindev.android.ui.SettingItemImpl mImpl -> c
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void dispatchDraw(android.graphics.Canvas) -> dispatchDraw
+    boolean access$0(com.kaixindev.android.ui.SettingCheckboxItem) -> a
+    void access$1(com.kaixindev.android.ui.SettingCheckboxItem,boolean) -> a
+com.kaixindev.android.ui.SettingCheckboxItem$OnCheckedChangedListener -> com.kaixindev.android.ui.d:
+com.kaixindev.android.ui.SettingCheckboxItem$OnClickListener -> com.kaixindev.android.ui.c:
+    com.kaixindev.android.ui.SettingCheckboxItem this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.kaixindev.android.ui.SettingContainerItem -> com.kaixindev.android.ui.SettingContainerItem:
+    com.kaixindev.android.ui.SettingItemImpl mImpl -> a
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void dispatchDraw(android.graphics.Canvas) -> dispatchDraw
+com.kaixindev.android.ui.SettingInfoFragment -> com.kaixindev.android.ui.SettingInfoFragment:
+com.kaixindev.android.ui.SettingItemImpl -> com.kaixindev.android.ui.e:
+    android.graphics.drawable.Drawable mHighlightImage -> b
+    android.graphics.Rect mHighlightRect -> c
+    boolean mHighlightOnTop -> a
+    void init(android.content.Context,android.content.res.TypedArray,android.view.ViewGroup,int) -> a
+    boolean onTouchEvent(android.view.ViewGroup,android.view.MotionEvent) -> a
+    void drawHighlight(android.graphics.Canvas) -> a
+com.kaixindev.android.ui.SettingRadioItem -> com.kaixindev.android.ui.SettingRadioItem:
+    com.kaixindev.android.ui.SettingItemImpl mImpl -> b
+    void setChecked(boolean) -> a
+    boolean isChecked() -> a
+    android.widget.RadioButton getRadioButton() -> b
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void dispatchDraw(android.graphics.Canvas) -> dispatchDraw
+com.kaixindev.core.FileLog -> com.kaixindev.core.e:
+    int[] DOGTAG_SIZE1 -> a
+    int[] DOGTAG_SIZE2 -> b
+    int[] DOGTAG_HEADER -> c
+    long OFFSET_LAST_MODIFIED -> d
+    long OFFSET_TOTAL_SIZE -> e
+    long OFFSET_CURRENT_SIZE1 -> f
+    long OFFSET_CURRENT_SIZE2 -> g
+    long HEADER_SIZE -> h
+    java.io.RandomAccessFile mFile -> i
+    int mWhich -> j
+    com.kaixindev.core.FileLog newInstance(java.lang.String) -> a
+    com.kaixindev.core.FileLog newInstance(java.io.File) -> a
+    boolean init() -> a
+    boolean isOK() -> b
+    long getTotalSize() -> c
+    boolean setTotalSize(long) -> a
+    long getCurrentSize() -> d
+    boolean setCurrentSize(long) -> b
+    java.lang.String getLastModifiedString() -> e
+    boolean setLastModified(long) -> c
+    boolean compareInBytes$6b39e891(java.io.RandomAccessFile,int[]) -> a
+    boolean writeBytes(java.io.RandomAccessFile,int[]) -> b
+    boolean isDogTag(java.io.RandomAccessFile,long,int[]) -> a
+    boolean writeSizeEx(java.io.RandomAccessFile,long,long,int[]) -> a
+    boolean writeSize(java.io.RandomAccessFile,long,long) -> a
+    long readSize$5fa38ea7(java.io.RandomAccessFile,long) -> a
+com.kaixindev.core.Hash -> com.kaixindev.core.c:
+    java.lang.String MD5(byte[]) -> a
+com.kaixindev.core.I18NString -> com.kaixindev.core.I18NString:
+    java.util.Map mLocaleStringMap -> mLocaleStringMap
+    java.lang.String get(java.lang.String) -> get
+    java.lang.String getExactValue(java.lang.String) -> getExactValue
+    void put(java.lang.String,java.lang.String) -> put
+    java.util.Set keySet() -> keySet
+    void setField(java.lang.String,java.lang.Object) -> setField
+    java.lang.Object getField(java.lang.String) -> getField
+com.kaixindev.core.IOUtil -> com.kaixindev.core.g:
+    java.lang.String getProtocol(java.lang.String) -> a
+    java.io.InputStream open(android.content.Context,java.lang.String) -> a
+    java.lang.String getPath(java.lang.String) -> b
+    byte[] read(java.io.InputStream) -> a
+    byte[] read(java.io.File) -> a
+    boolean write$3f7ebd97(java.io.File,byte[],int) -> a
+    boolean createFile(java.io.File) -> b
+    void recursiveDelete(java.io.File) -> c
+com.kaixindev.core.StringUtil -> com.kaixindev.core.a:
+    boolean isEmpty(java.lang.String) -> a
+com.kaixindev.core.ThreadWorker -> com.kaixindev.core.d:
+    java.util.List mMessages -> a
+    java.util.List mJobsQueue -> b
+    java.lang.Thread mThread -> c
+    android.os.ConditionVariable mReadyEvent -> d
+    android.os.ConditionVariable mActiveEvent -> e
+    android.os.ConditionVariable mQuitEvent -> f
+    java.lang.Boolean mQuit -> g
+    void finalize() -> finalize
+    boolean start() -> a
+    void pushJob(java.lang.Runnable) -> a
+    java.lang.Runnable popJob() -> b
+    android.os.ConditionVariable access$0(com.kaixindev.core.ThreadWorker) -> a
+    android.os.ConditionVariable access$1(com.kaixindev.core.ThreadWorker) -> b
+    java.lang.Boolean access$2(com.kaixindev.core.ThreadWorker) -> c
+    java.lang.Runnable access$3(com.kaixindev.core.ThreadWorker) -> d
+    android.os.ConditionVariable access$4(com.kaixindev.core.ThreadWorker) -> e
+com.kaixindev.core.ThreadWorker$ThreadRunnable -> com.kaixindev.core.f:
+    com.kaixindev.core.ThreadWorker this$0 -> a
+    void run() -> run
+com.kaixindev.core.XMLUtil -> com.kaixindev.core.b:
+    java.lang.String XMLtoString(org.w3c.dom.Document) -> a
+com.kaixindev.io.Copier -> com.kaixindev.a.g:
+    java.util.List mOnProgressListeners -> a
+    java.util.List mOnStartListeners -> b
+    java.util.List mOnEndListeners -> c
+    int mNotifyIntervalMillis -> d
+    com.kaixindev.io.InputBuffer mFrom -> e
+    com.kaixindev.io.OutputBuffer mTo -> f
+    void addOnProgressListener(com.kaixindev.io.Copier$OnProgressListener) -> a
+    void addOnStartListener(com.kaixindev.io.Copier$OnStartListener) -> a
+    void addOnEndListener(com.kaixindev.io.Copier$OnEndListener) -> a
+    com.kaixindev.io.Copier setFrom(com.kaixindev.io.InputBuffer) -> a
+    com.kaixindev.io.Copier setTo(com.kaixindev.io.OutputBuffer) -> a
+    long copy() -> a
+com.kaixindev.io.Copier$OnEndListener -> com.kaixindev.a.b:
+    void onEnd$6c63bf94(com.kaixindev.io.OutputBuffer) -> a
+com.kaixindev.io.Copier$OnProgressListener -> com.kaixindev.a.a:
+    boolean onProgress$6c63bf90(com.kaixindev.io.InputBuffer,long) -> a
+com.kaixindev.io.Copier$OnStartListener -> com.kaixindev.a.h:
+    boolean onStart$6cd0a14b() -> a
+com.kaixindev.io.FileOutputBuffer -> com.kaixindev.a.e:
+    java.io.RandomAccessFile mRandomFile -> a
+    java.io.File mFile -> b
+    void finalize() -> finalize
+    com.kaixindev.io.FileOutputBuffer newInstance(java.io.File,java.lang.String) -> a
+    int write$1cf967b1(byte[],int) -> a
+    boolean seek(long) -> a
+    long getSize() -> a
+    java.lang.String getPath() -> b
+com.kaixindev.io.InputBuffer -> com.kaixindev.a.c:
+    int read$1cf967b1(byte[]) -> a
+    long getSize() -> a
+com.kaixindev.io.OutputBuffer -> com.kaixindev.a.f:
+    int write$1cf967b1(byte[],int) -> a
+    boolean seek(long) -> a
+    long getSize() -> a
+    java.lang.String getPath() -> b
+com.kaixindev.io.StreamInputBuffer -> com.kaixindev.a.d:
+    java.io.InputStream mInputStream -> a
+    long mSize -> b
+    java.lang.String mPath -> c
+    int read$1cf967b1(byte[]) -> a
+    long getSize() -> a
+    void setSize(long) -> a
+    void setPath(java.lang.String) -> a
+com.kaixindev.kxplayer.AVContext -> com.kaixindev.kxplayer.AVContext:
+    boolean mHasAudio -> mHasAudio
+    int mAudioSampleFormat -> mAudioSampleFormat
+    int mAudioSampleRate -> mAudioSampleRate
+    int mAudioChannels -> mAudioChannels
+    boolean mHasVideo -> mHasVideo
+com.kaixindev.kxplayer.Agent -> com.kaixindev.kxplayer.Agent:
+    int STATE_IDLE -> STATE_IDLE
+    int STATE_OPEN -> STATE_OPEN
+    int STATE_STARTED -> STATE_STARTED
+    int STATE_RECEIVING_DATA -> STATE_RECEIVING_DATA
+    int STATE_PAUSED -> STATE_PAUSED
+    int STATE_ABORTED -> STATE_ABORTED
+    int STATUS_OK -> STATUS_OK
+    int STATUS_PAUSED -> STATUS_PAUSED
+    int STATUS_ERROR -> STATUS_ERROR
+    int mPtrNativeDev -> mPtrNativeDev
+    void finalize() -> finalize
+    com.kaixindev.kxplayer.Agent create(com.kaixindev.kxplayer.Agent$OnStartListener,com.kaixindev.kxplayer.Agent$OnReceiveListener,com.kaixindev.kxplayer.Agent$OnFinishListener) -> create
+    int open(java.lang.String) -> open
+    int pause() -> pause
+    int resume() -> resume
+    int abort() -> abort
+    int stop() -> stop
+    int getState() -> getState
+    int release() -> release
+com.kaixindev.kxplayer.Agent$OnFinishListener -> com.kaixindev.kxplayer.Agent$OnFinishListener:
+    void onFinish(int) -> onFinish
+com.kaixindev.kxplayer.Agent$OnReceiveListener -> com.kaixindev.kxplayer.Agent$OnReceiveListener:
+    void onReceive(byte[]) -> onReceive
+com.kaixindev.kxplayer.Agent$OnStartListener -> com.kaixindev.kxplayer.Agent$OnStartListener:
+    int onStart(com.kaixindev.kxplayer.AVContext) -> onStart
+com.kaixindev.kxplayer.Area -> com.kaixindev.kxplayer.Area:
+    com.kaixindev.core.I18NString name -> name
+com.kaixindev.kxplayer.Channel -> com.kaixindev.kxplayer.Channel:
+    java.lang.String areaId -> areaId
+    java.lang.String uri -> uri
+    com.kaixindev.core.I18NString name -> name
+com.kaixindev.kxplayer.ChannelListAdapter -> com.kaixindev.kxplayer.f:
+    java.util.List mChannels -> a
+    android.content.Context mContext -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void removeChannel(java.lang.String) -> a
+com.kaixindev.kxplayer.Device -> com.kaixindev.kxplayer.Device:
+    com.kaixindev.kxplayer.Device open(com.kaixindev.kxplayer.Device$Option) -> open
+    void pause(boolean) -> pause
+    void close() -> close
+    int write(byte[],int) -> write
+com.kaixindev.kxplayer.Device$Option -> com.kaixindev.kxplayer.c:
+com.kaixindev.kxplayer.FavoritesManager -> com.kaixindev.kxplayer.e:
+    java.util.Collection mChannels -> a
+    java.io.File mFile -> b
+    boolean mLoaded -> c
+    com.kaixindev.kxplayer.FavoritesManager create(java.io.File) -> a
+    boolean hasChannel(java.lang.String) -> a
+    boolean addChannel(java.lang.String) -> b
+    void removeChannel(java.lang.String) -> c
+    boolean load(boolean) -> a
+    boolean flush() -> a
+    java.util.Collection getChannels() -> b
+com.kaixindev.kxplayer.NoProGuardObject -> com.kaixindev.kxplayer.d:
+com.kaixindev.kxplayer.Player -> com.kaixindev.kxplayer.b:
+    int mState -> a
+    android.media.AudioTrack mAudioTrack -> b
+    com.kaixindev.kxplayer.Agent mAgent -> c
+    android.content.Context mContext -> d
+    java.lang.String mUri -> e
+    int mBufferSize -> f
+    android.os.Handler mHandler -> g
+    void finalize() -> finalize
+    int getState() -> a
+    void setState(int) -> a
+    boolean open(java.lang.String) -> a
+    void resume() -> b
+    void stop() -> e
+    void pause() -> c
+    void abort() -> f
+    void onReceive(byte[]) -> onReceive
+    int onStart(com.kaixindev.kxplayer.AVContext) -> onStart
+    java.lang.String getPlayingUri() -> d
+    void onFinish(int) -> onFinish
+    void onMarkerReached(android.media.AudioTrack) -> onMarkerReached
+    void onPeriodicNotification(android.media.AudioTrack) -> onPeriodicNotification
+    int access$0(com.kaixindev.kxplayer.Player) -> a
+    void access$1(com.kaixindev.kxplayer.Player,int) -> a
+com.kaixindev.kxplayer.Player$1 -> com.kaixindev.kxplayer.a:
+    com.kaixindev.kxplayer.Player this$0 -> a
+    android.media.AudioTrack val$track -> b
+    void run() -> run
+com.kaixindev.kxplayer.PlayerNotificationReceiver -> com.kaixindev.kxplayer.PlayerNotificationReceiver:
+    android.os.Messenger mMessenger -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.kaixindev.kxplayer.UpdateInfo -> com.kaixindev.kxplayer.UpdateInfo:
+    int versionCode -> versionCode
+    java.lang.String versionString -> versionString
+    java.lang.String description -> description
+    java.lang.String packageUri -> packageUri
+com.kaixindev.kxplayer.service.ChannelSourceService -> com.kaixindev.kxplayer.service.ChannelSourceService:
+    java.util.Map mChannels -> a
+    com.kaixindev.core.ThreadWorker mWorker -> b
+    boolean mLoaded -> c
+    com.kaixindev.kxplayer.Channel getChannel(java.lang.String) -> a
+    java.util.List getChannels() -> a
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    java.util.Map access$0() -> b
+    boolean access$1(com.kaixindev.kxplayer.service.ChannelSourceService) -> a
+    com.kaixindev.core.ThreadWorker access$2(com.kaixindev.kxplayer.service.ChannelSourceService) -> b
+    void access$3$7f982858(com.kaixindev.kxplayer.service.ChannelSourceService) -> c
+com.kaixindev.kxplayer.service.ChannelSourceService$Client -> com.kaixindev.kxplayer.service.j:
+    com.kaixindev.kxplayer.service.ChannelSourceService this$0 -> a
+    com.kaixindev.kxplayer.Channel get(java.lang.String) -> a
+    void loadChannels$51d4c306(android.os.Messenger) -> a
+com.kaixindev.kxplayer.service.ChannelSourceService$Client$1 -> com.kaixindev.kxplayer.service.d:
+    com.kaixindev.kxplayer.service.ChannelSourceService$Client this$1 -> a
+    android.os.Messenger val$messenger -> b
+    void run() -> run
+com.kaixindev.kxplayer.service.FavoritesService -> com.kaixindev.kxplayer.service.FavoritesService:
+    com.kaixindev.core.ThreadWorker mThreadWorker -> a
+    com.kaixindev.kxplayer.FavoritesManager mFavorManager -> b
+    boolean mLoaded -> c
+    void onCreate() -> onCreate
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    com.kaixindev.kxplayer.FavoritesManager access$0(com.kaixindev.kxplayer.service.FavoritesService) -> a
+    com.kaixindev.core.ThreadWorker access$1(com.kaixindev.kxplayer.service.FavoritesService) -> b
+    void access$3$2754c6d1(com.kaixindev.kxplayer.service.FavoritesService) -> c
+com.kaixindev.kxplayer.service.FavoritesService$Client -> com.kaixindev.kxplayer.service.c:
+    com.kaixindev.kxplayer.service.FavoritesService this$0 -> a
+    void addFavor(java.lang.String) -> a
+    boolean hasFavorite(java.lang.String) -> b
+    void removeFavor(java.lang.String) -> c
+    java.util.Collection getFavorites() -> a
+    void flushFavorites$3670bbfc() -> b
+    void loadFavorites(android.os.Messenger) -> a
+com.kaixindev.kxplayer.service.FavoritesService$Client$1 -> com.kaixindev.kxplayer.service.b:
+    com.kaixindev.kxplayer.service.FavoritesService$Client this$1 -> a
+    android.os.Messenger val$messenger -> b
+    void run() -> run
+com.kaixindev.kxplayer.service.FavoritesService$Client$2 -> com.kaixindev.kxplayer.service.a:
+    com.kaixindev.kxplayer.service.FavoritesService$Client this$1 -> a
+    android.os.Messenger val$messenger -> b
+    void run() -> run
+com.kaixindev.kxplayer.service.PlayerService -> com.kaixindev.kxplayer.service.PlayerService:
+    com.kaixindev.kxplayer.service.PlayerService$Client mClient -> a
+    com.kaixindev.kxplayer.Player mPlayer -> b
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    com.kaixindev.kxplayer.Player access$0(com.kaixindev.kxplayer.service.PlayerService) -> a
+com.kaixindev.kxplayer.service.PlayerService$Client -> com.kaixindev.kxplayer.service.e:
+    com.kaixindev.kxplayer.service.PlayerService this$0 -> a
+    boolean open(java.lang.String) -> a
+    void pause() -> a
+    void resume() -> b
+    int getState() -> c
+    java.lang.String getPlayingUri() -> d
+com.kaixindev.kxplayer.service.UpdateService -> com.kaixindev.kxplayer.service.UpdateService:
+    com.kaixindev.kxplayer.service.UpdateService$Client mBinder -> a
+    com.kaixindev.core.ThreadWorker mThreadWorker -> b
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    com.kaixindev.core.ThreadWorker access$0(com.kaixindev.kxplayer.service.UpdateService) -> a
+    android.app.NotificationManager access$1(com.kaixindev.kxplayer.service.UpdateService) -> b
+com.kaixindev.kxplayer.service.UpdateService$Client -> com.kaixindev.kxplayer.service.f:
+    com.kaixindev.kxplayer.service.UpdateService this$0 -> a
+    void checkUpdate$46a8a40e(android.os.Messenger) -> a
+    void askForUpdate(android.app.Activity,com.kaixindev.kxplayer.UpdateInfo) -> a
+com.kaixindev.kxplayer.service.UpdateService$Client$1 -> com.kaixindev.kxplayer.service.g:
+    com.kaixindev.kxplayer.service.UpdateService$Client this$1 -> a
+    android.os.Messenger val$messenger -> b
+    void run() -> run
+com.kaixindev.kxplayer.service.UpdateService$Client$2 -> com.kaixindev.kxplayer.service.h:
+    com.kaixindev.kxplayer.service.UpdateService$Client this$1 -> a
+    com.kaixindev.kxplayer.UpdateInfo val$info -> b
+    void run() -> run
+com.kaixindev.kxplayer.service.UpdateService$Client$2$1 -> com.kaixindev.kxplayer.service.l:
+    com.kaixindev.kxplayer.service.UpdateService$Client$2 this$2 -> a
+    boolean onProgress$6c63bf90(com.kaixindev.io.InputBuffer,long) -> a
+com.kaixindev.kxplayer.service.UpdateService$Client$2$2 -> com.kaixindev.kxplayer.service.k:
+    com.kaixindev.kxplayer.service.UpdateService$Client$2 this$2 -> a
+    void onEnd$6c63bf94(com.kaixindev.io.OutputBuffer) -> a
+com.kaixindev.kxplayer.service.UpdateService$Client$3 -> com.kaixindev.kxplayer.service.i:
+    com.kaixindev.kxplayer.service.UpdateService$Client this$1 -> a
+    com.kaixindev.kxplayer.UpdateInfo val$info -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.kaixindev.kxplayer.ui.CategoriesActivity -> com.kaixindev.kxplayer.ui.CategoriesActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+com.kaixindev.kxplayer.ui.ChannelListActivity -> com.kaixindev.kxplayer.ui.ChannelListActivity:
+    com.kaixindev.core.ThreadWorker mThreadWorker -> b
+    android.os.Messenger mMessenger -> c
+    java.util.List mChannels -> d
+    com.kaixindev.kxplayer.service.PlayerService$Client mPlayerCLI -> a
+    android.content.ServiceConnection mPlayerConn -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+    void loadChannels(java.lang.String) -> b
+    void showLoading() -> a
+    void hideLoading() -> b
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+    java.util.List access$0(com.kaixindev.kxplayer.ui.ChannelListActivity) -> a
+    void access$1(com.kaixindev.kxplayer.ui.ChannelListActivity,java.util.List) -> a
+    android.os.Messenger access$2(com.kaixindev.kxplayer.ui.ChannelListActivity) -> b
+com.kaixindev.kxplayer.ui.ChannelListActivity$1 -> com.kaixindev.kxplayer.ui.g:
+    com.kaixindev.kxplayer.ui.ChannelListActivity this$0 -> a
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+com.kaixindev.kxplayer.ui.ChannelListActivity$2 -> com.kaixindev.kxplayer.ui.h:
+    com.kaixindev.kxplayer.ui.ChannelListActivity this$0 -> a
+    java.lang.String val$path -> b
+    void run() -> run
+com.kaixindev.kxplayer.ui.ChannelListActivity$LocalHandler -> com.kaixindev.kxplayer.ui.a:
+    com.kaixindev.kxplayer.ui.ChannelListActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.kaixindev.kxplayer.ui.FavoritesActivity -> com.kaixindev.kxplayer.ui.FavoritesActivity:
+    android.os.Handler mHandler -> b
+    android.os.Messenger mMessenger -> c
+    com.kaixindev.kxplayer.service.FavoritesService$Client mFavClient -> d
+    android.content.ServiceConnection mFavConn -> e
+    com.kaixindev.kxplayer.service.ChannelSourceService$Client mChClient -> f
+    android.content.ServiceConnection mChConn -> g
+    void onResume() -> onResume
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+    void loadFavorites() -> c
+    void removeFavor(java.lang.String) -> a
+    void access$0(com.kaixindev.kxplayer.ui.FavoritesActivity,com.kaixindev.kxplayer.service.FavoritesService$Client) -> a
+    com.kaixindev.kxplayer.service.FavoritesService$Client access$1(com.kaixindev.kxplayer.ui.FavoritesActivity) -> a
+    android.os.Messenger access$2(com.kaixindev.kxplayer.ui.FavoritesActivity) -> b
+    void access$3(com.kaixindev.kxplayer.ui.FavoritesActivity,com.kaixindev.kxplayer.service.ChannelSourceService$Client) -> a
+    com.kaixindev.kxplayer.service.ChannelSourceService$Client access$4(com.kaixindev.kxplayer.ui.FavoritesActivity) -> c
+    void access$5(com.kaixindev.kxplayer.ui.FavoritesActivity) -> d
+com.kaixindev.kxplayer.ui.FavoritesActivity$1 -> com.kaixindev.kxplayer.ui.t:
+    com.kaixindev.kxplayer.ui.FavoritesActivity this$0 -> a
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+com.kaixindev.kxplayer.ui.FavoritesActivity$2 -> com.kaixindev.kxplayer.ui.w:
+    com.kaixindev.kxplayer.ui.FavoritesActivity this$0 -> a
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+com.kaixindev.kxplayer.ui.FavoritesActivity$LocalHandler -> com.kaixindev.kxplayer.ui.p:
+    boolean mFavLoaded -> a
+    boolean mChLoaded -> b
+    com.kaixindev.kxplayer.ui.FavoritesActivity this$0 -> c
+    void handleMessage(android.os.Message) -> handleMessage
+com.kaixindev.kxplayer.ui.FavoritesAdapter -> com.kaixindev.kxplayer.ui.b:
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    com.kaixindev.kxplayer.ui.FavoritesActivity getActivity() -> a
+    java.util.List access$0(com.kaixindev.kxplayer.ui.FavoritesAdapter) -> a
+    android.content.Context access$1(com.kaixindev.kxplayer.ui.FavoritesAdapter) -> b
+com.kaixindev.kxplayer.ui.FavoritesAdapter$1 -> com.kaixindev.kxplayer.ui.af:
+    com.kaixindev.kxplayer.ui.FavoritesAdapter this$0 -> a
+    int val$position -> b
+    void onClick(android.view.View) -> onClick
+com.kaixindev.kxplayer.ui.FavoritesAdapter$1$1 -> com.kaixindev.kxplayer.ui.ac:
+    com.kaixindev.kxplayer.ui.FavoritesAdapter$1 this$1 -> a
+    com.kaixindev.kxplayer.Channel val$channel -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.kaixindev.kxplayer.ui.MainActivity -> com.kaixindev.kxplayer.ui.MainActivity:
+    com.kaixindev.kxplayer.PlayerNotificationReceiver mPCBReceiver -> a
+    android.os.Messenger mMessenger -> b
+    com.kaixindev.kxplayer.service.UpdateService$Client mUpdateCLI -> c
+    android.content.ServiceConnection mUpdateConn -> d
+    com.kaixindev.kxplayer.service.PlayerService$Client mPlayerCLI -> e
+    android.content.ServiceConnection mPlayerConn -> f
+    android.widget.TabHost$TabSpec createTabSpec(android.widget.TabHost,java.lang.String,int,android.content.Intent) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onStart() -> onStart
+    void onStop() -> onStop
+    void onDestroy() -> onDestroy
+    void updatePlayerDisplay(java.lang.String) -> a
+    void updatePlayerState(int) -> a
+    void showPauseButton() -> a
+    void showStartButton() -> b
+    void access$0(com.kaixindev.kxplayer.ui.MainActivity,com.kaixindev.kxplayer.service.UpdateService$Client) -> a
+    com.kaixindev.kxplayer.service.UpdateService$Client access$1(com.kaixindev.kxplayer.ui.MainActivity) -> a
+    android.os.Messenger access$2(com.kaixindev.kxplayer.ui.MainActivity) -> b
+    void access$3(com.kaixindev.kxplayer.ui.MainActivity,com.kaixindev.kxplayer.service.PlayerService$Client) -> a
+    com.kaixindev.kxplayer.service.PlayerService$Client access$4(com.kaixindev.kxplayer.ui.MainActivity) -> c
+com.kaixindev.kxplayer.ui.MainActivity$1 -> com.kaixindev.kxplayer.ui.v:
+    com.kaixindev.kxplayer.ui.MainActivity this$0 -> a
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+com.kaixindev.kxplayer.ui.MainActivity$2 -> com.kaixindev.kxplayer.ui.u:
+    com.kaixindev.kxplayer.ui.MainActivity this$0 -> a
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+com.kaixindev.kxplayer.ui.MainActivity$3 -> com.kaixindev.kxplayer.ui.s:
+    com.kaixindev.kxplayer.ui.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.kaixindev.kxplayer.ui.MainActivity$4 -> com.kaixindev.kxplayer.ui.r:
+    com.kaixindev.kxplayer.ui.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.kaixindev.kxplayer.ui.MainActivity$5 -> com.kaixindev.kxplayer.ui.q:
+    com.kaixindev.kxplayer.ui.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.kaixindev.kxplayer.ui.MainActivity$LocalHandler -> com.kaixindev.kxplayer.ui.ad:
+    com.kaixindev.kxplayer.ui.MainActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.kaixindev.kxplayer.ui.PlayerActivity -> com.kaixindev.kxplayer.ui.PlayerActivity:
+    com.kaixindev.kxplayer.ui.PlayerActivity$BroReceiver mRecv -> a
+    com.kaixindev.android.service.IntentDispatcher mIntentDispatcher -> b
+    com.kaixindev.kxplayer.service.FavoritesService$Client mFavClient -> c
+    android.os.Messenger mMessenger -> d
+    android.content.ServiceConnection mServConn -> e
+    com.kaixindev.kxplayer.service.PlayerService$Client mPlayerCLI -> f
+    android.content.ServiceConnection mPlayerConn -> g
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void updatePlayerState(int) -> a
+    void access$0(com.kaixindev.kxplayer.ui.PlayerActivity,com.kaixindev.kxplayer.service.FavoritesService$Client) -> a
+    com.kaixindev.kxplayer.service.FavoritesService$Client access$1(com.kaixindev.kxplayer.ui.PlayerActivity) -> a
+    android.os.Messenger access$2(com.kaixindev.kxplayer.ui.PlayerActivity) -> b
+    void access$3(com.kaixindev.kxplayer.ui.PlayerActivity,com.kaixindev.kxplayer.service.PlayerService$Client) -> a
+    com.kaixindev.kxplayer.service.PlayerService$Client access$4(com.kaixindev.kxplayer.ui.PlayerActivity) -> c
+    void access$5(com.kaixindev.kxplayer.ui.PlayerActivity,int) -> a
+    com.kaixindev.android.service.IntentDispatcher access$6(com.kaixindev.kxplayer.ui.PlayerActivity) -> d
+com.kaixindev.kxplayer.ui.PlayerActivity$1 -> com.kaixindev.kxplayer.ui.m:
+    com.kaixindev.kxplayer.ui.PlayerActivity this$0 -> a
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+com.kaixindev.kxplayer.ui.PlayerActivity$2 -> com.kaixindev.kxplayer.ui.o:
+    com.kaixindev.kxplayer.ui.PlayerActivity this$0 -> a
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+com.kaixindev.kxplayer.ui.PlayerActivity$3 -> com.kaixindev.kxplayer.ui.n:
+    com.kaixindev.kxplayer.ui.PlayerActivity this$0 -> a
+    android.media.AudioManager val$am -> b
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+com.kaixindev.kxplayer.ui.PlayerActivity$4 -> com.kaixindev.kxplayer.ui.j:
+    com.kaixindev.kxplayer.ui.PlayerActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.kaixindev.kxplayer.ui.PlayerActivity$5 -> com.kaixindev.kxplayer.ui.i:
+    com.kaixindev.kxplayer.ui.PlayerActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.kaixindev.kxplayer.ui.PlayerActivity$6 -> com.kaixindev.kxplayer.ui.l:
+    com.kaixindev.kxplayer.ui.PlayerActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.kaixindev.kxplayer.ui.PlayerActivity$7 -> com.kaixindev.kxplayer.ui.k:
+    com.kaixindev.kxplayer.ui.PlayerActivity this$0 -> a
+    android.widget.ImageButton val$btnFavor -> b
+    void onClick(android.view.View) -> onClick
+com.kaixindev.kxplayer.ui.PlayerActivity$BroReceiver -> com.kaixindev.kxplayer.ui.y:
+    com.kaixindev.kxplayer.ui.PlayerActivity this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.kaixindev.kxplayer.ui.PlayerActivity$BroadcastHandler -> com.kaixindev.kxplayer.ui.aa:
+    com.kaixindev.kxplayer.ui.PlayerActivity this$0 -> a
+com.kaixindev.kxplayer.ui.PlayerActivity$MessengerHandler -> com.kaixindev.kxplayer.ui.z:
+    com.kaixindev.kxplayer.ui.PlayerActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.kaixindev.kxplayer.ui.RecommActivity -> com.kaixindev.kxplayer.ui.RecommActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+com.kaixindev.kxplayer.ui.SettingsActivity -> com.kaixindev.kxplayer.ui.SettingsActivity:
+    com.kaixindev.core.ThreadWorker mWorker -> a
+    com.kaixindev.kxplayer.service.UpdateService$Client mUpdateCLI -> b
+    android.content.ServiceConnection mUpdateConn -> c
+    android.os.Messenger mMessenger -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+    void access$0(com.kaixindev.kxplayer.ui.SettingsActivity,com.kaixindev.kxplayer.service.UpdateService$Client) -> a
+    com.kaixindev.kxplayer.service.UpdateService$Client access$1(com.kaixindev.kxplayer.ui.SettingsActivity) -> a
+    android.os.Messenger access$2(com.kaixindev.kxplayer.ui.SettingsActivity) -> b
+    com.kaixindev.core.ThreadWorker access$3(com.kaixindev.kxplayer.ui.SettingsActivity) -> c
+com.kaixindev.kxplayer.ui.SettingsActivity$1 -> com.kaixindev.kxplayer.ui.c:
+    com.kaixindev.kxplayer.ui.SettingsActivity this$0 -> a
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+com.kaixindev.kxplayer.ui.SettingsActivity$2 -> com.kaixindev.kxplayer.ui.d:
+    com.kaixindev.kxplayer.ui.SettingsActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.kaixindev.kxplayer.ui.SettingsActivity$3 -> com.kaixindev.kxplayer.ui.e:
+    com.kaixindev.kxplayer.ui.SettingsActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.kaixindev.kxplayer.ui.SettingsActivity$3$1 -> com.kaixindev.kxplayer.ui.x:
+    com.kaixindev.kxplayer.ui.SettingsActivity$3 this$1 -> a
+    android.app.ProgressDialog val$dialog -> b
+    void run() -> run
+com.kaixindev.kxplayer.ui.SettingsActivity$LocalHandler -> com.kaixindev.kxplayer.ui.f:
+    com.kaixindev.kxplayer.ui.SettingsActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.kaixindev.kxplayer.ui.SplashActivity -> com.kaixindev.kxplayer.ui.SplashActivity:
+    android.os.Messenger mMessenger -> a
+    com.kaixindev.kxplayer.service.ChannelSourceService$Client mChannelSource -> b
+    android.content.ServiceConnection mChannelSourceConn -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+    void access$0(com.kaixindev.kxplayer.ui.SplashActivity,com.kaixindev.kxplayer.service.ChannelSourceService$Client) -> a
+    com.kaixindev.kxplayer.service.ChannelSourceService$Client access$1(com.kaixindev.kxplayer.ui.SplashActivity) -> a
+    android.os.Messenger access$2(com.kaixindev.kxplayer.ui.SplashActivity) -> b
+com.kaixindev.kxplayer.ui.SplashActivity$1 -> com.kaixindev.kxplayer.ui.ab:
+    com.kaixindev.kxplayer.ui.SplashActivity this$0 -> a
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+com.kaixindev.kxplayer.ui.SplashActivity$LocalHandler -> com.kaixindev.kxplayer.ui.ae:
+    com.kaixindev.kxplayer.ui.SplashActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.kaixindev.kxplayer.ui.TestView -> com.kaixindev.kxplayer.ui.TestView:
+    float mProgress -> a
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void onDraw(android.graphics.Canvas) -> onDraw
+com.kaixindev.net.HTTPDownloadBuilder -> com.kaixindev.b.a:
+    int mTimeoutMillis -> a
+    com.kaixindev.io.Copier build(java.lang.String,com.kaixindev.io.OutputBuffer,java.io.File) -> a
+    java.net.HttpURLConnection openConnection(java.lang.String) -> a
+com.kaixindev.net.HTTPDownloadBuilder$1 -> com.kaixindev.b.c:
+    com.kaixindev.net.HTTPDownloadBuilder this$0 -> a
+    java.net.HttpURLConnection val$conn -> b
+    com.kaixindev.net.HTTPDownloadBuilder$Size val$startSize -> c
+    com.kaixindev.io.OutputBuffer val$dest -> d
+    com.kaixindev.core.FileLog val$log -> e
+    boolean onStart$6cd0a14b() -> a
+com.kaixindev.net.HTTPDownloadBuilder$2 -> com.kaixindev.b.d:
+    com.kaixindev.net.HTTPDownloadBuilder this$0 -> a
+    com.kaixindev.core.FileLog val$log -> b
+    com.kaixindev.net.HTTPDownloadBuilder$Size val$startSize -> c
+    boolean onProgress$6c63bf90(com.kaixindev.io.InputBuffer,long) -> a
+com.kaixindev.net.HTTPDownloadBuilder$Size -> com.kaixindev.b.b:
+    long value -> a
+com.kaixindev.serialize.Attribute -> com.kaixindev.c.b:
+com.kaixindev.serialize.Serializable -> com.kaixindev.c.c:
+    java.lang.Object getField(java.lang.String) -> getField
+    java.util.Set keySet() -> keySet
+    void setField(java.lang.String,java.lang.Object) -> setField
+com.kaixindev.serialize.Type -> com.kaixindev.c.a:
+    java.lang.String getShortTypeName(java.lang.String) -> a
+    java.lang.String toJavaName(java.lang.String) -> b
+    boolean isPrimitive(java.lang.String) -> c
+    boolean isSerializable(java.lang.String) -> d
+com.kaixindev.serialize.XMLSerializer -> com.kaixindev.c.d:
+    java.lang.Object unserialize(byte[]) -> a
+    byte[] serialize(java.lang.Object) -> a
+    java.lang.Object elementToObject(org.w3c.dom.Element,java.lang.String) -> a
+    java.lang.Object parsePrimitive(java.lang.String,java.lang.String) -> a
+    void objectToElement(org.w3c.dom.Document,org.w3c.dom.Element,java.lang.Object,boolean) -> a
+    javax.xml.parsers.DocumentBuilder getXMLDocumentBuilder() -> a
